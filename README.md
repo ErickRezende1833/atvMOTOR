@@ -4,3 +4,4 @@ Para testar o código, basta abrir o "diagram.json" e iniciar a simulação.
 
 Link do vídeo teste:
 https://drive.google.com/file/d/1nHfTbPMsE1U47wZZmVnNsVqhSiWnY8EU/view?usp=sharing
+(o arquivo .mp4 está no repositório caso ocorra algum problema com o link)
