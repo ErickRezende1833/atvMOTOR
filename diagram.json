@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Wilton L. Silva",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": -80.05,
+      "left": 13.15,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -30.8, "left": 201.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GND.8", "servo1:GND", "black", [ "h0" ] ],
+    [ "pico:3V3", "servo1:V+", "green", [ "h105.91", "v28.8" ] ],
+    [ "pico:GP22", "servo1:PWM", "green", [ "h96.31", "v9.6" ] ]
+  ],
+  "dependencies": {}
+}

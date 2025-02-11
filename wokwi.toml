@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/atvMOTOR.hex'
+elf = 'build/atvMOTOR.elf'
